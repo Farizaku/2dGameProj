@@ -41,6 +41,5 @@ public class GamePanel extends JPanel implements Runnable {
     }
     public void paintComponent(Graphics g){
         super.paintComponent(g);
-        
     }
 }
