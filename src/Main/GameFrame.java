@@ -1,4 +1,4 @@
-package Main;
+package main;
 
 import javax.swing.*;
 
@@ -8,9 +8,9 @@ public class GameFrame extends JFrame {
         this.setResizable(false);
         this.setTitle("2D adventure game");
 
-        this.setLocationRelativeTo(null);
-        this.setVisible(true);
         this.add(new GamePanel());
         this.pack();
+        this.setLocationRelativeTo(null);
+        this.setVisible(true);
     }
 }
