@@ -54,6 +54,7 @@ public class GamePanel extends JPanel implements Runnable {
             if(deltaTime >= 1){
                 update();
                 repaint();
+                deltaTime--;
             }
         }
     }
